@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Rock Paper Scissors</h1>
+			<h3>Win 3 rounds to be the winner</h3>
+			<h2>Click on the buttons below to select your move:<h2>
+			<div class="action">
+				<input class="options" type="image" src="./image/rock.jpg" value="Rock" />
+				<input class="options" type="image" src="./image/paper.jpg" value="Paper" />
+				<input class="options" type="image" src="./image/scissors.jpg" value="Scissors" />
+			</div>
+			
+			<!--- Players scores-->
+			<!--<div class="score">
+				<div class="player-score">
+					<h2>Player</h2>
+					<p class="player-count count" id="player-score">0</p>
+				</div>
+				<div class="computer-score">
+					<h2>Computer</h2>
+					<p class="computer-count count" id="comp-score">0</p>
+				</div>
+			</div>-->
+			<h2>Player <span id="player-score">0</span> - <span id="comp-score">0</span> Computer</h2>
+			<!-- moves left-->
+
+
+			<div class="results">
+				<div>
+					<img id="player-move" src="./image/rock.jpg">
+				</div>
+				<div class="vs">VS</div>
+				<div>
+					<img id="comp-move" src="./image/rock.jpg">
+				</div>
+			</div>
+		</div>
+	<script src=script.js></script>
+	</body>
+</html>

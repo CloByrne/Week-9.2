@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+}
+
+.action {
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 20px;
+	max-width: 800px;
+	padding: 40px 0;
+	margin: 0 auto;
+	background-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+}
+.options {
+	flex: 1 1 30%;
+	padding: 10px;
+	animation-name: anim-fade;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	width: 100%;
+	max-width: 120px;
+}
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.vs {
+	font-size: 4em;
+}
+.score {
+	display: flex;
+	position: absolute;
+}
+.player-count, .computer-count{
+	text-align: center;
+	font-size: 1.8rem;
+	margin: 1re;
+}
